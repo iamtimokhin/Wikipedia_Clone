@@ -1,3 +1,7 @@
+@import "./components/Form.scss";
+@import "./components/Spinner.scss";
+@import "./components/Scroll.scss";
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +9,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(90deg,
+      #1a042c,
+      #231b3f,
+      #2e197c,
+      #2e197c,
+      #2f0642);
 }
 
 code {
